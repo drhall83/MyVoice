@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "166862372569",
+    "firebase_url": "https://hons-project-18-19.firebaseio.com",
+    "project_id": "hons-project-18-19",
+    "storage_bucket": "hons-project-18-19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166862372569:android:5c73b456295b0f1b",
+        "android_client_info": {
+          "package_name": "com.example.drhal.honsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166862372569-hr8lk4oeaqkvu5hafsstpmmt1u11qner.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1bFh-R2iPgVKIlZOFANH1rKxZW0mDvNY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

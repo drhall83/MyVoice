@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hons Project</string>
+    <string name="enter_your_email_address">Enter your Email Address</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="register">Register</string>
+    <string name="already_registered_sign_in_here">Already Registered? Sign in here</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="not_have_an_account_register_here">Not have an account? Register here</string>
+    <string name="login">Login</string>
+    <string name="enter_profile_name">Enter Profile Name</string>
+    <string name="profile_image">Profile image</string>
+    <string name="tap_the_camera_to_choose_a_profile_picture">Tap the camera to choose a profile picture</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="logout">Logout</string>
+
+</resources>
