@@ -12,5 +12,6 @@
     <string name="tap_the_camera_to_choose_a_profile_picture">Tap the camera to choose a profile picture</string>
     <string name="create_profile">Create Profile</string>
     <string name="logout">Logout</string>
+    <string name="categories">Categories</string>
 
 </resources>

@@ -11,14 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/enter_profile_name"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.395"
-        android:inputType="textPersonName"
-         />
+        app:layout_constraintVertical_bias="0.395" />
 
     <ImageView
         android:id="@+id/profileImage"
@@ -35,6 +34,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.093"
         app:srcCompat="@android:drawable/ic_menu_camera" />
+
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="544dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/editTextUserName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileImage" />
 
     <Button
         android:id="@+id/buttonLogout"
@@ -54,6 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
+        android:focusable="true"
         android:onClick="onClick"
         android:text="@string/create_profile"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,8 +75,7 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622"
-        android:focusable="true" />
+        app:layout_constraintVertical_bias="0.622" />
 
     <TextView
         android:id="@+id/addImage"

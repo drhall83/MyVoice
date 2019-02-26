@@ -102,15 +102,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 });
     }
 
-    // this is a test for git
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (firebaseAuth.getCurrentUser() != null){
+            finish();
+            startActivity(new Intent(this, ProfileActivity.class));
 
-@Override
+        }
+    }
+
+    @Override
     public void onClick(View v) {
     if (v == buttonRegister) {
         registerUser();
     }
     if (v == textViewSignIn){
-        finish();
+
 
         startActivity(new Intent(this, LoginActivity.class));
 
