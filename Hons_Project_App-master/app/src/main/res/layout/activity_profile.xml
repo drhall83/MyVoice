@@ -21,8 +21,8 @@
 
     <ImageView
         android:id="@+id/profileImage"
-        android:layout_width="129dp"
-        android:layout_height="114dp"
+        android:layout_width="300dp"
+        android:layout_height="177dp"
         android:clickable="true"
         android:contentDescription="@string/profile_image"
         android:focusable="auto"

@@ -60,13 +60,13 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         }
 
 
-        editTextUserName = (EditText) findViewById(R.id.editTextUserName);
+        editTextUserName =  findViewById(R.id.editTextUserName);
         databaseReference = FirebaseDatabase.getInstance().getReference();
-        profileImage = (ImageView) findViewById(R.id.profileImage);
+        profileImage = findViewById(R.id.profileImage);
 
         FirebaseUser user = firebaseAuth.getCurrentUser();
-        buttonLogout = (Button) findViewById(R.id.buttonLogout);
-        createProfile = (Button) findViewById(R.id.createProfile);
+        buttonLogout =  findViewById(R.id.buttonLogout);
+        createProfile =  findViewById(R.id.createProfile);
         buttonLogout.setOnClickListener(this);
         createProfile.setOnClickListener(this);
         profileImage.setOnClickListener(this);
@@ -227,7 +227,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         if ( v==  createProfile){
             Toast.makeText(ProfileActivity.this, "Profile created", Toast.LENGTH_SHORT).show();
             saveUserInformation();
-            startActivity(new Intent(this, Categories.class));
+          //  startActivity(new Intent(this, MyCategories.class));
 
         }
     }
