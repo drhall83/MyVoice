@@ -3,4 +3,9 @@
     <color name="colorPrimary">#FBFDFC</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#1BD886</color>
+    <color name="action_bar_color">#0277bd</color>
+    <color name="action_bar_text_color">#fafafa</color>
+    <color name="drawer_background">#fafafa</color>
+    <color name="drawer_selected">#ff9100</color>
+
 </resources>

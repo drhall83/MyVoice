@@ -208,7 +208,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
         //if user presses logout button
         if(v == buttonLogout){
-            Toast.makeText(ProfileActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
+            Toast.makeText(ProfileActivity.this, "Logging out", Toast.LENGTH_SHORT).show();
 
             //logging the user out
             firebaseAuth.signOut();
